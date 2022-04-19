@@ -23,13 +23,13 @@ header p {
   font-size: 25px;
 }
 .pads {
-  background: lightblue;
+  background: #000;
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .pads > div {
-  height: 100px;
-  width: 100px;
+  height: 150px;
   flex: 1;
 }
 .pad1 {
